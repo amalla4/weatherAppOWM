@@ -2,6 +2,8 @@ import UilReact from '@iconscout/react-unicons/icons/uil-react';
 import './App.css';
 import TopButtons from './components/TopButtons';
 import Inputs from './components/Inputs';
+import TimeAndLocation from './components/TimeAndLocation';
+import TempDetails from './components/TempDetails';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
     shadow-2xl shadow-black'>
       <TopButtons/>
       <Inputs />
+      <TimeAndLocation />
+      <TempDetails />
     </div>
   );
 }
